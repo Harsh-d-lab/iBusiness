@@ -1,0 +1,81 @@
+body {
+  background: #ABCDEF;
+  font-family: Assistant, sans-serif;
+  display: flex;
+  min-height: 90vh;
+}
+.login {
+  color: rgb(0, 0, 0);
+  background:linear-gradient(to right, #d27fe6, #800fc2);
+  margin: auto;
+  box-shadow:0px 2px 10px rgba(0,0,0,0.2), 
+             0px 10px 20px rgba(0,0,0,0.3), 
+             0px 30px 60px 1px rgba(0,0,0,0.5);
+  border-radius: 2rem;
+  padding: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.login .head {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.login .head .company {
+  font-size: 2.2em;
+}
+.login .msg {
+  text-align: center;
+}
+.login .form input[type=text].text {
+  border: none;
+  background: none;
+  box-shadow: 0px 2px 0px 0px white;
+  width: 100%;
+  color: white;
+  font-size: 1em;
+  outline: none;
+}
+.login .form .text::placeholder {
+  color: #D3D3D3;
+}
+.login .form input[type=password].password {
+  border: none;
+  background: none;
+  box-shadow: 0px 2px 0px 0px white;
+  width: 100%;
+  color: white;
+  font-size: 1em;
+  outline: none;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.login .form .password::placeholder {
+  color: #D3D3D3;
+}
+.login .form .btn-login {
+  background: none;
+  text-decoration: none;
+  color: white;
+  box-shadow: 0px 0px 0px 2px white;
+  border-radius: 3px;
+  padding: 5px 2em;
+  transition: 0.5s;
+}
+.login .form .btn-login:hover {
+  background: rgb(135, 7, 152);
+  color: rgb(169, 11, 161);
+  transition: 0.5s;
+}
+.login .forget {
+  background-color: #bf85e0;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  float: right;
+}
+.login .forget:hover {
+  background-color: rgb(147, 25, 143);
+  color: azure;
+}
