@@ -1,4 +1,6 @@
-import React, {useState} from 'react'
+import React, {useState} from 'react';
+import Forget from './Forget';
+import { Link } from 'react-router-dom';
 
 const Login = () => {
     const [username, setUsername] = useState("");
@@ -13,7 +15,7 @@ const Login = () => {
 
         console.log(allEntry);
     }
-  return (
+  return ( 
     <>
       <section class='login' id='login'>
          <div class='head'>
@@ -37,10 +39,10 @@ const Login = () => {
                      onChange={(e) => setPassword(e.target.value)}
             />
         </div>
-    
         <button type="submit" class='btnlogin' id='do-login'>Login</button>
-        <button type="submit" class='forget'>Forget Password </button>
+        <Forget></Forget>
          </form>
+         {/* <footer>Copyright &copy; thepowerhouse.com </footer> */}
        </section>
     </>
   )
