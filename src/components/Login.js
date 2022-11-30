@@ -1,6 +1,5 @@
 import React, {useState} from 'react';
 import Forget from './Forget';
-import { Link } from 'react-router-dom';
 
 const Login = () => {
     const [username, setUsername] = useState("");
