@@ -1,3 +1,4 @@
+import * as React from 'react';
 function Sidebar(){
     return(
             <nav class="navbar background">

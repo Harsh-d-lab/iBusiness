@@ -1,14 +1,15 @@
-import * as React from 'react';
+import React from 'react';
+import {useNavigate} from "react-router-dom"
 
 const Home = () => {
-    const data = {
-      name: "thepowerhouse.com",
-    };
+const navigate = useNavigate();
+	
+return (
+	<>
+		<h1 style={{color:"blue"}}>ThePowerHouse</h1>
+		<button onClick={()=>navigate("/about")}>About</button>
+	</>
+)
+};
 
-    return (
-        <>
-          myData={data}
-        </>
-      );
-    };
-    export default Home;
+export default Home;
