@@ -1,4 +1,5 @@
 import React, {useState} from 'react';
+import { NavLink } from 'react-router-dom';
 import Forget from './Forget';
 
 const Login = () => {
@@ -38,7 +39,8 @@ const Login = () => {
                      onChange={(e) => setPassword(e.target.value)}
             />
         </div>
-        <button type="submit" class='btnlogin' id='do-login'>Login</button>
+        <NavLink to="/Dashboard">Login</NavLink>
+        
         <Forget></Forget>
          </form>
          {/* <footer>Copyright &copy; thepowerhouse.com </footer> */}
