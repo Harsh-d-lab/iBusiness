@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from "react-router-dom";
 import { NavLink } from 'react-router-dom';
 
-function Dashboard() {
+function Sidebar() {
   return (
     <div>
       <nav class="navbar background">
@@ -13,7 +13,7 @@ function Dashboard() {
                         <li><Link to="/products">Products</Link></li>
                         <li><Link to="/wishlist">Wishlist</Link></li>
                         <li><Link to="/clients">Clients</Link></li>
-                        <li><Link to="/aboutUs">About</Link></li>
+                        <li><Link to="/about">About</Link></li>
                     <br></br>
                     <NavLink to="/">Logout</NavLink>
              </nav>
@@ -21,4 +21,4 @@ function Dashboard() {
   )
 }
 
-export default Dashboard
+export default Sidebar

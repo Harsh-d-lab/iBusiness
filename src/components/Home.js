@@ -1,14 +1,13 @@
 import React from 'react';
-import {useNavigate} from "react-router-dom"
+import Sidebar from './Sidebar'
 
-const Home = () => {
-const navigate = useNavigate();
+const Home = () => {;
 	
 return (
 	<>
+	 <Sidebar/>
 		<h1 style={{color:"blue"}}>ThePowerHouse</h1>
 		<p>Quality Content for Quality Learning</p>
-		<button onClick={()=>navigate("/about")}>About</button>
 	</>
 )
 };
