@@ -39,7 +39,7 @@ const Login = () => {
                      onChange={(e) => setPassword(e.target.value)}
             />
         </div>
-        <NavLink to="/Dashboard">Login</NavLink>
+        <NavLink to="/Sidebar">Login</NavLink>
         
         <Forget></Forget>
          </form>
