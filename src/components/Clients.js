@@ -19,7 +19,6 @@ function Clients() {
         <Sidebar />
         <main>
             <h1>Our Clients</h1>
-
            <Grid container rowSpacing={1} columnSpacing={{ xs: 1, sm: 2, md: 3 }} style={{
           padding: '25px',
           gap: '10px',
@@ -28,7 +27,6 @@ function Clients() {
              {
               clientData.map((props) => {
                 const {first_name, last_name, email, avatar} = props;
-
                 return (
                   <Item 
                   title={first_name + ' ' + last_name}

@@ -6,7 +6,7 @@ const About = () => {
 return (
 <>
     <Sidebar/>
-	<h1 style={{color:"blue"}}>A business Website.</h1>
+	<h1 style={{color:"blue"}}>This is My business Website. It is owned by Harsh Dhama</h1>
 </>
 )
 };
